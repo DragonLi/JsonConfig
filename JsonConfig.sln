@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadJson", "ReadJson\ReadJson.csproj", "{6334D6C0-B7B0-4E1F-9069-944C328CA0E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6334D6C0-B7B0-4E1F-9069-944C328CA0E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6334D6C0-B7B0-4E1F-9069-944C328CA0E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6334D6C0-B7B0-4E1F-9069-944C328CA0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6334D6C0-B7B0-4E1F-9069-944C328CA0E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
