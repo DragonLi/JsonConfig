@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Newtonsoft.Json;
 
 public class BaseActionInfo
 {
@@ -11,6 +12,7 @@ public class BaseActionInfo
 	/**锚点跟随动作移动*/
 	public bool mountFollow;
 	
+	[JsonProperty(ItemTypeNameHandling = TypeNameHandling.All)]
 	public List<BaseEffectInfo> effects;
 
 	public void FillInfo(JsonActionInfo info)
