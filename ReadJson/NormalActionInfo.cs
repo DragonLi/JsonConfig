@@ -13,6 +13,8 @@
 	public string AttackerDirections;
 	/**（多段攻击的）攻击时长列表*/
 	public string AttackerDurations;
+	
+	//bug should move the following code into the virtual fucntion FillInfo
 	static public BaseActionInfo ToBaseActionInfo(JsonActionInfo json)
 	{
 		NormalActionInfo info = new NormalActionInfo ();
@@ -26,6 +28,18 @@
 		info.AttackerDurations = json.AttackerDurations;
 		
 		return info;
+	}
+
+	public override void FillInfo(JsonActionInfo json)
+	{
+		base.FillInfo(json);
+		startTime = json.startTime;
+		delayTime = json.delayTime;
+		
+		AnimationChangeable = json.AnimationChangeable;
+		AttackerActions = json.AttackerActions;
+		AttackerDirections = json.AttackerDirections;
+		AttackerDurations = json.AttackerDurations;
 	}
 }
 

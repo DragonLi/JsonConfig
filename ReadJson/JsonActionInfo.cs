@@ -55,6 +55,7 @@ public class JsonActionInfo
         if (ActionInfoExchangeDict.TryGetValue(type, out realType))
         {
             info = (BaseActionInfo)Activator.CreateInstance(realType);
+	        //bug: FillInfo must be virtual to handle different inherit types!
             info.FillInfo(this);
         }
         return info;

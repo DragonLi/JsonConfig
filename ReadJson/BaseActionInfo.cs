@@ -15,7 +15,7 @@ public class BaseActionInfo
 	[JsonProperty(ItemTypeNameHandling = TypeNameHandling.All)]
 	public List<BaseEffectInfo> effects;
 
-	public void FillInfo(JsonActionInfo info)
+	public virtual void FillInfo(JsonActionInfo info)
 	{
 		type = info.type;
 		name = info.name;
