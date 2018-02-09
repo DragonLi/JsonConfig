@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 using JsonC = Newtonsoft.Json.JsonConvert;
@@ -9,8 +10,9 @@ namespace ReadJson
     {
         public static void Main(string[] args)
         {
-            ConvertOldJsonFormat();
-            TestNewJsonFormat();
+            IndentOldJsonFormat();
+            //ConvertOldJsonFormat();
+            //TestShortTypeName();
         }
 
         private static void IndentOldJsonFormat()
@@ -26,7 +28,7 @@ namespace ReadJson
         {
             string path = "BattleConfig.bytes";
             var json = JsonC.DeserializeObject<JsonBattleConfigInfo>(File.ReadAllText(path));
-            var newjson = new NewJsonBattleConfigInfo {time = json.time};
+            var newjson = new NewJsonBattleConfigInfo {time = json.time,list = new List<SkillConfigInfo>(json.list.Count)};
             foreach (var jsonSkillConfigInfo in json.list)
             {
                 newjson.list.Add(jsonSkillConfigInfo.ToSkillConfigInfo());
@@ -41,6 +43,13 @@ namespace ReadJson
             string path = "NewBattleConfig.json";
             var newjson = JsonC.DeserializeObject<NewJsonBattleConfigInfo>(File.ReadAllText(path));
             Console.ReadLine();
+        }
+
+        private static void TestShortTypeName()
+        {
+            string path = "NormalAttack.json";
+            var newjson = JsonC.DeserializeObject<SkillConfigInfo>(File.ReadAllText(path));
+            Console.ReadLine();            
         }
     }
 }

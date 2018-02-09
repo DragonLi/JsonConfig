@@ -4,7 +4,7 @@ public class NewJsonBattleConfigInfo
 {
 	public string time = "";
 	
-	public List<SkillConfigInfo> list = new List<SkillConfigInfo>();	
+	public List<SkillConfigInfo> list;	
 }
 
 public class JsonBattleConfigInfo

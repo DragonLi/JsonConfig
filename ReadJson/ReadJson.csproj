@@ -73,7 +73,10 @@
     <Content Include="NewBattleConfig.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="NormalAttack.json" />
+    <Content Include="NormalAttack.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="NormalAttackCompare.json" />
     <Content Include="Test.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
