@@ -61,7 +61,7 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
+          "startTime": 0.5,
           "delayTime": 0.0,
           "AnimationChangeable": false,
           "AttackerActions": null,
@@ -147,7 +147,7 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
+          "startTime": 0.5,
           "delayTime": 0.0,
           "AnimationChangeable": false,
           "AttackerActions": null,
@@ -233,7 +233,7 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
+          "startTime": 0.5,
           "delayTime": 0.0,
           "AnimationChangeable": false,
           "AttackerActions": null,
@@ -295,7 +295,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.8,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -375,8 +375,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.8,
+          "delayTime": 0.166666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -525,8 +525,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.55,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -587,7 +587,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 2.0,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -667,8 +667,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.4,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -729,7 +729,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.8,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -809,8 +809,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.533333,
+          "delayTime": 0.166666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -871,7 +871,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.8,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -951,8 +951,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.533333,
+          "delayTime": 0.166666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -1013,7 +1013,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 3.0,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -1125,8 +1125,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.55,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -1275,8 +1275,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.4,
+          "delayTime": 0.13,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -1337,7 +1337,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.8,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -1417,8 +1417,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.3,
+          "delayTime": 0.166666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -1479,7 +1479,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.8,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -1559,8 +1559,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.533333,
+          "delayTime": 0.166666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -1621,7 +1621,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.8,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -1701,8 +1701,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.533333,
+          "delayTime": 0.166666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -1763,7 +1763,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 7.0,
           "center": false,
           "type": "move",
           "name": null,
@@ -1875,8 +1875,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.55,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -1937,7 +1937,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.8,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -2017,8 +2017,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.533333,
+          "delayTime": 0.166666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -2079,7 +2079,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.8,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -2159,8 +2159,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.533333,
+          "delayTime": 0.266666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -2277,8 +2277,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.9,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -2339,7 +2339,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.8,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -2419,8 +2419,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.533333,
+          "delayTime": 0.166666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -2481,7 +2481,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.8,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -2561,8 +2561,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.533333,
+          "delayTime": 0.166666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -2623,7 +2623,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.8,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -2671,8 +2671,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.533333,
+          "delayTime": 0.166666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -2733,7 +2733,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.8,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -2813,8 +2813,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.4,
+          "delayTime": 0.13,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -2875,7 +2875,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.3,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -2923,8 +2923,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.5,
+          "delayTime": 0.1666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -2985,7 +2985,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.8,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -3033,8 +3033,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.5,
+          "delayTime": 0.166666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -3095,7 +3095,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.0,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -3143,8 +3143,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.65,
+          "delayTime": 0.1666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -3261,8 +3261,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.9,
+          "delayTime": 0.166666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -3323,7 +3323,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 2.0,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -3403,8 +3403,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.3,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -3465,7 +3465,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 2.7,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -3545,8 +3545,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.6,
+          "delayTime": 0.15,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -3695,8 +3695,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.1,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -3757,7 +3757,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.8,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -3805,8 +3805,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.533333,
+          "delayTime": 0.166666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -3867,7 +3867,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.0,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -3947,8 +3947,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.4,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -4129,7 +4129,7 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
+          "startTime": 0.75,
           "delayTime": 0.0,
           "AnimationChangeable": false,
           "AttackerActions": null,
@@ -4215,8 +4215,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.5,
+          "delayTime": 1.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -4365,7 +4365,7 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
+          "startTime": 0.75,
           "delayTime": 0.0,
           "AnimationChangeable": false,
           "AttackerActions": null,
@@ -4451,8 +4451,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.5,
+          "delayTime": 1.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -4537,8 +4537,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.5,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -4623,8 +4623,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.5,
+          "delayTime": 1.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -4709,8 +4709,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.3,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -4827,8 +4827,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.4,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -4991,8 +4991,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.2,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -5123,8 +5123,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.45,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -5255,8 +5255,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.7,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -5355,8 +5355,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 2.0,
+          "delayTime": 0.1666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -5487,8 +5487,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.8,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -5619,8 +5619,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.1,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -5695,7 +5695,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.8,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -5743,8 +5743,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.0,
+          "delayTime": 0.166666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -5875,8 +5875,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.8,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -5975,8 +5975,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.2,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -6107,8 +6107,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.1,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -6239,8 +6239,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.45,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -6347,7 +6347,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 6.0,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -6427,8 +6427,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 2.4,
+          "delayTime": 0.4,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -6559,8 +6559,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.35,
+          "delayTime": 0.4,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -6737,8 +6737,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.3,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -6869,7 +6869,7 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
+          "startTime": 0.5,
           "delayTime": 0.0,
           "AnimationChangeable": false,
           "AttackerActions": null,
@@ -6987,8 +6987,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.3,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -7151,8 +7151,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.3,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -7315,8 +7315,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.3,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -7447,7 +7447,7 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
+          "startTime": 0.5,
           "delayTime": 0.0,
           "AnimationChangeable": false,
           "AttackerActions": null,
@@ -7477,7 +7477,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 4.0,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -7557,8 +7557,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.9,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -7643,7 +7643,7 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
+          "startTime": 0.433,
           "delayTime": 0.0,
           "AnimationChangeable": false,
           "AttackerActions": null,
@@ -7705,7 +7705,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 2.0,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -7785,8 +7785,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.6,
+          "delayTime": 0.3666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -7861,7 +7861,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.6,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -7941,8 +7941,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.23,
+          "delayTime": 1.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -8003,7 +8003,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.65,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -8083,8 +8083,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.2333,
+          "delayTime": 1.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -8169,8 +8169,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.6666,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -8359,8 +8359,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.7,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -8435,7 +8435,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 5.0,
           "center": false,
           "type": "move",
           "name": "forward",
@@ -8515,8 +8515,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.2,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -8711,8 +8711,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.3,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -8861,8 +8861,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.3666,
+          "delayTime": 0.23,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -8961,8 +8961,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.4,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -9111,8 +9111,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.2,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -9229,8 +9229,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.6,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -9347,8 +9347,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.9,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -9465,8 +9465,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.0,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -9551,8 +9551,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.0,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -9701,8 +9701,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.1,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -9795,8 +9795,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.4,
+          "delayTime": 0.6,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -9881,8 +9881,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.0,
+          "delayTime": 0.8,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -9967,8 +9967,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.0,
+          "delayTime": 0.8,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -10053,8 +10053,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 2.1,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -10153,8 +10153,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 2.1,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -10253,8 +10253,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.7,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -10353,8 +10353,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.7,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -10453,8 +10453,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.7,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -10553,8 +10553,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.9,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -10749,8 +10749,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.35,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -10945,8 +10945,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.35,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -11077,8 +11077,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.6,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -11195,8 +11195,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.6,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -11313,8 +11313,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.0,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -11431,8 +11431,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.0,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -11517,8 +11517,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.1,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -11617,8 +11617,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.1,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -11717,8 +11717,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 2.0,
+          "delayTime": 0.1666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -11817,8 +11817,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 2.0,
+          "delayTime": 0.1666,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -11949,8 +11949,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.1,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -12081,8 +12081,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.1,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -12181,8 +12181,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.5,
+          "delayTime": 0.6,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -12299,8 +12299,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.5,
+          "delayTime": 0.6,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -12417,8 +12417,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.5,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -12517,8 +12517,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.5,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -12617,8 +12617,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.2,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -12749,8 +12749,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.2,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -12913,8 +12913,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.8,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -13045,8 +13045,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.8,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -13145,8 +13145,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.4,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -13245,8 +13245,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.4,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -13345,8 +13345,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.1,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -13445,8 +13445,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.1,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -13577,8 +13577,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.45,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -13741,8 +13741,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.45,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -13849,8 +13849,8 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
-          "center": false,
+          "distance": 3.0,
+          "center": true,
           "type": "move",
           "name": "forward",
           "rotateX": 0,
@@ -13929,8 +13929,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.5,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -14015,7 +14015,7 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
+          "startTime": 0.5,
           "delayTime": 0.0,
           "AnimationChangeable": false,
           "AttackerActions": null,
@@ -14045,7 +14045,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.6,
           "center": false,
           "type": "move",
           "name": null,
@@ -14081,7 +14081,7 @@
         {
           "$type": "NormalActionInfo, ReadJson",
           "startTime": 0.0,
-          "delayTime": 0.0,
+          "delayTime": 0.8,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -14109,8 +14109,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.55,
+          "delayTime": 0.6,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -14203,7 +14203,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.6,
           "center": false,
           "type": "move",
           "name": null,
@@ -14251,8 +14251,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.75,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -14369,8 +14369,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.0,
+          "delayTime": 0.8,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -14455,8 +14455,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 2.1,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -14555,8 +14555,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.1,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -14687,8 +14687,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.6,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -14773,8 +14773,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.7,
+          "delayTime": 0.2,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -14905,8 +14905,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.6,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -14991,8 +14991,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.1,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -15091,8 +15091,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.5,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -15191,8 +15191,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.5,
+          "delayTime": 0.6,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -15309,8 +15309,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.5,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -15441,8 +15441,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 1.1,
+          "delayTime": 0.1,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -15517,7 +15517,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 1.4,
           "center": false,
           "type": "move",
           "name": null,
@@ -15645,8 +15645,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.55,
+          "delayTime": 1.0,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -15675,7 +15675,7 @@
         {
           "$type": "MoveActionInfo, ReadJson",
           "time": 0.0,
-          "distance": 0.0,
+          "distance": 3.0,
           "center": false,
           "type": "move",
           "name": null,
@@ -15688,7 +15688,7 @@
         {
           "$type": "NormalActionInfo, ReadJson",
           "startTime": 0.0,
-          "delayTime": 0.0,
+          "delayTime": 1.7,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
@@ -15787,8 +15787,8 @@
       "injurerActions": [
         {
           "$type": "NormalActionInfo, ReadJson",
-          "startTime": 0.0,
-          "delayTime": 0.0,
+          "startTime": 0.55,
+          "delayTime": 0.3,
           "AnimationChangeable": false,
           "AttackerActions": null,
           "AttackerDirections": null,
