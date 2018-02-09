@@ -5,7 +5,7 @@
     {
       "$type": "MoveActionInfo, ReadJson",
       "time": 0.0,
-      "distance": 0.0,
+      "distance": 1.8,
       "center": false,
       "type": "move",
       "name": "forward",
@@ -85,8 +85,8 @@
   "injurerActions": [
     {
       "$type": "NormalActionInfo, ReadJson",
-      "startTime": 0.0,
-      "delayTime": 0.0,
+      "startTime": 0.8,
+      "delayTime": 0.166666,
       "AnimationChangeable": false,
       "AttackerActions": null,
       "AttackerDirections": null,
