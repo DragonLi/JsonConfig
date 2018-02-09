@@ -10,8 +10,8 @@ namespace ReadJson
     {
         public static void Main(string[] args)
         {
-            IndentOldJsonFormat();
-            //ConvertOldJsonFormat();
+            //IndentOldJsonFormat();
+            ConvertOldJsonFormat();
             //TestShortTypeName();
         }
 
@@ -34,7 +34,7 @@ namespace ReadJson
                 newjson.list.Add(jsonSkillConfigInfo.ToSkillConfigInfo());
             }
 
-            var serializeObject = JsonC.SerializeObject(newjson, Formatting.Indented);
+            var serializeObject = JsonC.SerializeObject(newjson, Formatting.Indented,new JsonSerializerSettings { DefaultValueHandling = DefaultValueHandling.Ignore });
             File.WriteAllText("NewBattleConfig.json", serializeObject);
         }
 
