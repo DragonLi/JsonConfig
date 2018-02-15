@@ -1,0 +1,51 @@
+{
+  "id": 1329,
+  "name": "normal attack",
+  "battlePhrase": {
+    "$type": "SeqPhrase, ReadJson",
+    "_lst": [
+      {
+        "$type": "ActionPhrase, ReadJson",
+        "_actInfo": {
+          "type": "move"
+        }
+      },
+      {
+        "$type": "ParPhrase, ReadJson",
+        "_lst": [
+          {
+            "$type": "ActionPhrase, ReadJson",
+            "_actInfo": {
+              "type": "normal"
+            }
+          },
+          {
+            "$type": "BranchPhrase, ReadJson",
+            "_main": {
+              "$type": "ActionPhrase, ReadJson",
+              "_actInfo": {
+                "type": "normal"
+              }
+            },
+            "_other": {
+              "$type": "EffectPhrase, ReadJson",
+              "_effCfg": {
+                "type": "Normal"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "$type": "ActionPhrase, ReadJson",
+        "_actInfo": {
+          "type": "moveBack"
+        }
+      },
+      {
+        "$type": "WaitPhrase, ReadJson",
+        "_duration": 0.5
+      }
+    ]
+  }
+}

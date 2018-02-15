@@ -10,8 +10,10 @@ namespace ReadJson
     {
         public static void Main(string[] args)
         {
+            SimulateCorrectSkillConfig.SaveSimulatedNormalAttack();
+            SimulateCorrectSkillConfig.TestSimulatedConfig();
             //IndentOldJsonFormat();
-            ConvertOldJsonFormat();
+            //ConvertOldJsonFormat();
             //TestShortTypeName();
         }
 
