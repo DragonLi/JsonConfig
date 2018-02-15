@@ -7,16 +7,46 @@
       {
         "$type": "ActionPhrase, ReadJson",
         "_actInfo": {
-          "type": "move"
+          "$type": "MoveActionInfo, ReadJson",
+          "distance": 1.8,
+          "type": "move",
+          "name": "forward"
         }
       },
       {
         "$type": "ParPhrase, ReadJson",
         "_lst": [
           {
-            "$type": "ActionPhrase, ReadJson",
-            "_actInfo": {
-              "type": "normal"
+            "$type": "BranchPhrase, ReadJson",
+            "_main": {
+              "$type": "ActionPhrase, ReadJson",
+              "_actInfo": {
+                "$type": "NormalActionInfo, ReadJson",
+                "type": "normal",
+                "name": "attack"
+              }
+            },
+            "_other": {
+              "$type": "ParPhrase, ReadJson",
+              "_lst": [
+                {
+                  "$type": "EffectPhrase, ReadJson",
+                  "_effCfg": {
+                    "$type": "NormalEffectInfo, ReadJson",
+                    "name": "skill_eff_1329_att",
+                    "mount": "Mount_Shadow",
+                    "faceToTarget": true,
+                    "type": "Normal"
+                  }
+                },
+                {
+                  "$type": "EffectPhrase, ReadJson",
+                  "_effCfg": {
+                    "$type": "TakeDamageEffectInfo, ReadJson",
+                    "type": "TakeDamage"
+                  }
+                }
+              ]
             }
           },
           {
@@ -24,14 +54,35 @@
             "_main": {
               "$type": "ActionPhrase, ReadJson",
               "_actInfo": {
+                "$type": "NormalActionInfo, ReadJson",
+                "startTime": 0.8,
+                "delayTime": 0.167,
                 "type": "normal"
               }
             },
             "_other": {
-              "$type": "EffectPhrase, ReadJson",
-              "_effCfg": {
-                "type": "Normal"
-              }
+              "$type": "ParPhrase, ReadJson",
+              "_lst": [
+                {
+                  "$type": "EffectPhrase, ReadJson",
+                  "_effCfg": {
+                    "$type": "NormalEffectInfo, ReadJson",
+                    "name": "skill_eff_1329_hit",
+                    "mount": "Mount_Hit",
+                    "hitEff": true,
+                    "type": "Normal",
+                    "playTime": 0.8
+                  }
+                },
+                {
+                  "$type": "EffectPhrase, ReadJson",
+                  "_effCfg": {
+                    "$type": "ShowInjureEffectInfo, ReadJson",
+                    "type": "ShowInjure",
+                    "playTime": 0.8
+                  }
+                }
+              ]
             }
           }
         ]
@@ -39,7 +90,9 @@
       {
         "$type": "ActionPhrase, ReadJson",
         "_actInfo": {
-          "type": "moveBack"
+          "$type": "MoveBackActionInfo, ReadJson",
+          "type": "moveBack",
+          "name": "forward"
         }
       },
       {
