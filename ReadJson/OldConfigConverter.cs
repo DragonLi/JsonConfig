@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 using JsonC = Newtonsoft.Json.JsonConvert;
@@ -9,8 +10,8 @@ namespace ReadJson
     {
         public static void ConvertAndSaveNormalAttack()
         {
-            var old = JsonC.DeserializeObject<BattleConfigInfo>(
-                File.ReadAllText("NewBattleConfig.json"));
+            var jsonTxt = File.ReadAllText("NewBattleConfig.json");
+            var old = JsonC.DeserializeObject<BattleConfigInfo>(jsonTxt);
             var converted = new CorrectBattleConfigInfo {time = old.time};
             converted.list = FromOldNormalAttack(old.list);
             
@@ -60,6 +61,7 @@ namespace ReadJson
                 }
 
                 actInfo.initiator = ActionInitiator.Attacker;
+                FixTime(actInfo);
                 lst[i]=ActionPhrase.Create(actInfo);
                 if (removeIndex > 0)
                 {
@@ -71,6 +73,21 @@ namespace ReadJson
             return lst.ToSeq().Parall(inserted);
         }
 
+        private static void FixTime(BaseActionInfo actInfo)
+        {
+            var move = actInfo as MoveActionInfo;
+            if (move != null && Math.Abs(move.time) < float.Epsilon)
+            {
+                move.time = 1f;
+            }
+
+            var moveback = actInfo as MoveBackActionInfo;
+            if (moveback != null && Math.Abs(moveback.time) < float.Epsilon)
+            {
+                moveback.time = 1f;
+            }
+        }
+
         private static BattlePhraseBase Convert(List<BaseActionInfo> injuredList)
         {
             var lst = new BattlePhraseBase[injuredList.Count];
@@ -78,6 +95,7 @@ namespace ReadJson
             {
                 var info = injuredList[i];
                 info.initiator = ActionInitiator.Victim;
+                FixTime(info);
                 lst[i]=ActionPhrase.Create(info);
             }
             return lst.ToSeq();
