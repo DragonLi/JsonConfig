@@ -1,58 +1,119 @@
 {
-  "id": 1329,
-  "name": "普攻",
-  "attackerActions": [
+  "list": [
     {
-      "$type": "MoveActionInfo, ReadJson",
-      "distance": 1.8,
-      "type": "move",
-      "name": "forward",
-      "effects": []
-    },
-    {
-      "$type": "NormalActionInfo, ReadJson",
-      "type": "normal",
-      "name": "attack",
-      "effects": [
+      "id": 1329,
+      "name": "普攻",
+      "attackerActions": [
         {
-          "$type": "NormalEffectInfo, ReadJson",
-          "name": "skill_eff_1329_att",
-          "mount": "Mount_Shadow",
-          "faceToTarget": true,
-          "type": "Normal"
+          "$type": "MoveActionInfo, ReadJson",
+          "distance": 1.8,
+          "type": "move",
+          "name": "forward",
+          "effects": []
         },
         {
-          "$type": "TakeDamageEffectInfo, ReadJson",
-          "type": "TakeDamage"
+          "$type": "NormalActionInfo, ReadJson",
+          "type": "normal",
+          "name": "attack",
+          "effects": [
+            {
+              "$type": "NormalEffectInfo, ReadJson",
+              "name": "skill_eff_1329_att",
+              "mount": "Mount_Shadow",
+              "faceToTarget": true,
+              "type": "Normal"
+            },
+            {
+              "$type": "TakeDamageEffectInfo, ReadJson",
+              "type": "TakeDamage"
+            }
+          ]
+        },
+        {
+          "$type": "MoveBackActionInfo, ReadJson",
+          "type": "moveBack",
+          "name": "forward",
+          "effects": []
+        }
+      ],
+      "injurerActions": [
+        {
+          "$type": "NormalActionInfo, ReadJson",
+          "startTime": 0.8,
+          "delayTime": 0.166666,
+          "type": "normal",
+          "effects": [
+            {
+              "$type": "NormalEffectInfo, ReadJson",
+              "name": "skill_eff_1329_hit",
+              "mount": "Mount_Hit",
+              "hitEff": true,
+              "type": "Normal",
+              "playTime": 0.8
+            },
+            {
+              "$type": "ShowInjureEffectInfo, ReadJson",
+              "type": "ShowInjure",
+              "playTime": 0.8
+            }
+          ]
         }
       ]
     },
     {
-      "$type": "MoveBackActionInfo, ReadJson",
-      "type": "moveBack",
-      "name": "forward",
-      "effects": []
-    }
-  ],
-  "injurerActions": [
-    {
-      "$type": "NormalActionInfo, ReadJson",
-      "startTime": 0.8,
-      "delayTime": 0.166666,
-      "type": "normal",
-      "effects": [
+      "id": 1609,
+      "name": "普攻",
+      "attackerActions": [
         {
-          "$type": "NormalEffectInfo, ReadJson",
-          "name": "skill_eff_1329_hit",
-          "mount": "Mount_Hit",
-          "hitEff": true,
-          "type": "Normal",
-          "playTime": 0.8
-        },
+          "$type": "NormalActionInfo, ReadJson",
+          "type": "normal",
+          "name": "attack",
+          "effects": [
+            {
+              "$type": "TakeDamageEffectInfo, ReadJson",
+              "type": "TakeDamage"
+            },
+            {
+              "$type": "NormalEffectInfo, ReadJson",
+              "name": "skill_eff_1609_att",
+              "mount": "Mount_Shadow",
+              "faceToTarget": true,
+              "type": "Normal",
+              "playTime": 0.05
+            },
+            {
+              "$type": "NormalEffectInfo, ReadJson",
+              "name": "skill_eff_1609_fly",
+              "delayTime": 0.2333,
+              "mount": "Mount_Hit",
+              "faceToTarget": true,
+              "fly": true,
+              "type": "Normal",
+              "playTime": 0.25
+            }
+          ]
+        }
+      ],
+      "injurerActions": [
         {
-          "$type": "ShowInjureEffectInfo, ReadJson",
-          "type": "ShowInjure",
-          "playTime": 0.8
+          "$type": "NormalActionInfo, ReadJson",
+          "startTime": 0.55,
+          "delayTime": 0.3,
+          "type": "normal",
+          "effects": [
+            {
+              "$type": "ShowInjureEffectInfo, ReadJson",
+              "type": "ShowInjure",
+              "playTime": 0.55
+            },
+            {
+              "$type": "NormalEffectInfo, ReadJson",
+              "name": "skill_eff_1609_hit",
+              "mount": "Mount_Hit",
+              "type": "Normal",
+              "playTime": 0.55
+            }
+          ]
         }
       ]
     }
