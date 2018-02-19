@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-public class NewJsonBattleConfigInfo
+public class BattleConfigInfo
 {
 	public string time = "";
 	

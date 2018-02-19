@@ -10,8 +10,9 @@ namespace ReadJson
     {
         public static void Main(string[] args)
         {
-            SimulateCorrectSkillConfig.SaveSimulatedNormalAttack();
-            SimulateCorrectSkillConfig.TestSimulatedConfig();
+            OldConfigConverter.ConvertAndSaveNormalAttack();
+            //SimulateCorrectSkillConfig.SaveSimulatedNormalAttack();
+            //SimulateCorrectSkillConfig.TestSimulatedConfig();
             //IndentOldJsonFormat();
             //ConvertOldJsonFormat();
             //TestShortTypeName();
@@ -30,7 +31,7 @@ namespace ReadJson
         {
             string path = "BattleConfig.bytes";
             var json = JsonC.DeserializeObject<JsonBattleConfigInfo>(File.ReadAllText(path));
-            var newjson = new NewJsonBattleConfigInfo {time = json.time,list = new List<SkillConfigInfo>(json.list.Count)};
+            var newjson = new BattleConfigInfo {time = json.time,list = new List<SkillConfigInfo>(json.list.Count)};
             foreach (var jsonSkillConfigInfo in json.list)
             {
                 newjson.list.Add(jsonSkillConfigInfo.ToSkillConfigInfo());
@@ -43,7 +44,7 @@ namespace ReadJson
         private static void TestNewJsonFormat()
         {
             string path = "NewBattleConfig.json";
-            var newjson = JsonC.DeserializeObject<NewJsonBattleConfigInfo>(File.ReadAllText(path));
+            var newjson = JsonC.DeserializeObject<BattleConfigInfo>(File.ReadAllText(path));
             Console.ReadLine();
         }
 

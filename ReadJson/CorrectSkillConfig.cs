@@ -1,4 +1,11 @@
-﻿using Newtonsoft.Json;
+﻿using System.Collections.Generic;
+using Newtonsoft.Json;
+
+public class CorrectBattleConfigInfo
+{
+    public string time = "";
+    public List<CorrectSkillConfig> list;
+}
 
 public class CorrectSkillConfig
 {
@@ -29,6 +36,20 @@ public static class CorrectSkillConfigExt
     {
         if (other == null) return main;
         return BranchPhrase.Create(main,other);
+    }
+
+    public static BattlePhraseBase ToSeq(this BattlePhraseBase[] lst)
+    {
+        if (lst.Length == 1)
+            return lst[0];
+        return SeqPhrase.Create(lst);
+    }
+
+    public static BattlePhraseBase ToPar(this BattlePhraseBase[] lst)
+    {
+        if (lst.Length == 1)
+            return lst[0];
+        return ParPhrase.Create(lst);
     }
 }
 

@@ -1,9 +1,17 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
+public enum ActionInitiator
+{
+	Attacker,//攻击者
+	Victim,//受击者
+	//Pet,//宠物
+}
+
 public class BaseActionInfo
 {
 	public string type;//动作类型
+	public ActionInitiator initiator;//执行动作的对象：攻击者，受击者，宠物
 	public string name; // 播放动作名//
 	public int rotateX;
 	public int rotateY;
