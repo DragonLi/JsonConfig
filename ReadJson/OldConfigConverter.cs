@@ -10,7 +10,7 @@ namespace ReadJson
     {
         public static void ConvertAndSaveNormalAttack()
         {
-            var jsonTxt = File.ReadAllText("NewBattleConfig.json");
+            var jsonTxt = File.ReadAllText("ReformattedBattleConfig.json");
             var old = JsonC.DeserializeObject<BattleConfigInfo>(jsonTxt);
             var converted = new CorrectBattleConfigInfo {time = old.time};
             converted.list = FromOldNormalAttack(old.list);
@@ -22,19 +22,38 @@ namespace ReadJson
                 {
                     DefaultValueHandling = DefaultValueHandling.Ignore
                 });
-            File.WriteAllText("NewNormalAttackConfig.json", serializeObject);
+            File.WriteAllText("ConvertedNormalAttackConfig.json", serializeObject);
         }
         
-        public static CorrectSkillConfig FromOldNormalAttack(SkillConfigInfo oldCfg)
+        public static void ConvertOldAndSave()
         {
+            var jsonTxt = File.ReadAllText("ReformattedBattleConfig.json");
+            var old = JsonC.DeserializeObject<BattleConfigInfo>(jsonTxt);
+            var converted = new CorrectBattleConfigInfo {time = old.time};
+            converted.list = FromOld(old.list);
+            
+            var serializeObject = JsonC.SerializeObject(
+                converted, 
+                Formatting.Indented,
+                new JsonSerializerSettings
+                {
+                    DefaultValueHandling = DefaultValueHandling.Ignore
+                });
+            File.WriteAllText("ConvertedBattleConfig.json", serializeObject);
+        }
+        
+        public static CorrectSkillConfig FromOld(SkillConfigInfo oldCfg)
+        {
+            var injuredPhrase = Convert(oldCfg.injurerActions);
+            var attackPhrase = Convert(oldCfg.attackerActions,injuredPhrase);
+            if (attackPhrase == null) return null;
+            
             var result = new CorrectSkillConfig
             {
                 id = oldCfg.id,
-                name = oldCfg.name
+                name = oldCfg.name,
+                battlePhrase = attackPhrase
             };
-            var injuredPhrase = Convert(oldCfg.injurerActions);
-            var attackPhrase = Convert(oldCfg.attackerActions,injuredPhrase);
-            result.battlePhrase = attackPhrase;
             return result;
         }
 
@@ -49,6 +68,7 @@ namespace ReadJson
                 for (var index = 0; index < actInfo.effects.Count; index++)
                 {
                     var eff = actInfo.effects[index];
+                    eff.type = null;
                     if (eff is TakeDamageEffectInfo)
                     {
                         removeIndex = index;
@@ -63,7 +83,7 @@ namespace ReadJson
                 actInfo.initiator = ActionInitiator.Attacker;
                 FixTime(actInfo);
                 lst[i]=ActionPhrase.Create(actInfo);
-                if (removeIndex > 0)
+                if (removeIndex >= 0)
                 {
                     lst[i] = lst[i].Parall(inserted);
                     inserted = null;
@@ -75,6 +95,7 @@ namespace ReadJson
 
         private static void FixTime(BaseActionInfo actInfo)
         {
+            actInfo.type = null;
             var move = actInfo as MoveActionInfo;
             if (move != null && Math.Abs(move.time) < float.Epsilon)
             {
@@ -95,6 +116,10 @@ namespace ReadJson
             {
                 var info = injuredList[i];
                 info.initiator = ActionInitiator.Victim;
+                foreach (var eff in info.effects)
+                {
+                    eff.type = null;
+                }
                 FixTime(info);
                 lst[i]=ActionPhrase.Create(info);
             }
@@ -107,10 +132,23 @@ namespace ReadJson
             foreach (var oldCfg in oldLst)
             {
                 if (oldCfg.name!="普攻") continue;
-                var newCfg = FromOldNormalAttack(oldCfg);
+                var newCfg = FromOld(oldCfg);
+                if (newCfg == null) continue;
                 result.Add(newCfg);
             }
 
+            return result;
+        }
+        
+        public static List<CorrectSkillConfig> FromOld(List<SkillConfigInfo> oldLst)
+        {
+            var result=new List<CorrectSkillConfig>();
+            foreach (var oldCfg in oldLst)
+            {
+                var newCfg = FromOld(oldCfg);
+                if (newCfg == null) continue;
+                result.Add(newCfg);
+            }
             return result;
         }
     }

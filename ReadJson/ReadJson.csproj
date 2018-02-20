@@ -73,13 +73,14 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="BattleConfig.json" />
+    <Content Include="ConvertedBattleConfig.json" />
     <Content Include="CorrectBattleConfig.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="NewBattleConfig.json">
+    <Content Include="ReformattedBattleConfig.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="NewNormalAttackConfig.json" />
+    <Content Include="ConvertedNormalAttackConfig.json" />
     <Content Include="NormalAttack.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
